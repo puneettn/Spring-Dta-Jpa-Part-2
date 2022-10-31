@@ -35,14 +35,14 @@ class SpringJpaHibernate2ApplicationTests {
 	@Test
 	@Order(value = 1)
 	public void testCreate(){
-		repository.save(new Employee(1,"Komal","singh",32000,25));
+		repository.save(new Employee(1,"Kunal","singh",32000,25));
 		repository.save(new Employee(2,"Swapnil","Khanna",332000,19));
 		repository.save(new Employee(3,"shyam","bisht",342000,22));
 		repository.save(new Employee(4,"Aatif","Aslam",32000,25));
 		repository.save(new Employee(5,"Piyush","gupta",332000,18));
-		repository.save(new Employee(6,"Swagger","si22ngh",342000,44));
+		repository.save(new Employee(6,"Swagger","sharma",342000,44));
 
-		repository.save(new Employee(7,"Montu","lala",32000,50));
+		repository.save(new Employee(7,"Monty","lala",32000,50));
 		repository.save(new Employee(8,"Radhe","ram",332000,88));
 		repository.save(new Employee(9,"Kammal","Hussain",342000,45));
 
